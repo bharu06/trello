@@ -1,0 +1,95 @@
+{
+  "name": "react-redux-jest-kit",
+  "version": "1.0.2",
+  "description": "StarterKit with react, redux, eslint, webpack 4 and jest",
+  "keywords": [
+    "react",
+    "redux",
+    "webpack 4",
+    "hmr",
+    "jest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trembacz/react-redux-starter-kit.git"
+  },
+  "author": "Tomasz Rembacz",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest -u",
+    "test-watch": "jest -u --watch",
+    "serve": "node server",
+    "watch": "webpack --config ./webpack.development.config.js --colors --hide-modules --watch --watch-poll",
+    "dev": "webpack --config ./webpack.development.config.js --colors --hide-modules",
+    "prod": "webpack --config ./webpack.production.config.js --colors --hide-modules",
+    "eslint": "eslint .",
+    "jsonapi": "json-server --watch db.json --port 3004"
+  },
+  "jest": {
+    "bail": false,
+    "verbose": true,
+    "collectCoverage": true,
+    "notify": true,
+    "testEnvironment": "jsdom",
+    "moduleDirectories": [
+      "app",
+      "node_modules"
+    ],
+    "testMatch": [
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "collectCoverageFrom": [
+      "!dist/*"
+    ],
+    "roots": [
+      "<rootDir>/app/"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jest": "^25.4.0",
+    "local-storage": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-beautiful-dnd": "8.0.5",
+    "react-bootstrap": "^1.5.2",
+    "react-dnd": "9.4.0",
+    "react-dnd-html5-backend": "9.4.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "autoprefixer": "^9.7.6",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.4.0",
+    "babel-loader": "8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "json-server": "^0.16.1",
+    "react-test-renderer": "^16.13.1",
+    "redux-devtools": "^3.5.0",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

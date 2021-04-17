@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+   - 11
+
+branches:
+  only:
+    - master
+
+notifications:
+    email: false
+
+sudo: true

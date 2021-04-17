@@ -1,0 +1,61 @@
+{
+	"extends": [ "airbnb", "plugin:react/recommended" ],
+	"parser":  "babel-eslint",
+	"plugins": [ "react", "react-hooks" ],
+	"parserOptions": {
+		"ecmaVersion": 10,
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env":     {
+			"browser": true,
+			"jquery":  false,
+			"node":    true
+	},
+	"globals": {
+			"$":         true,
+			"jQuery":    true,
+			"Modernizr": true
+	},
+	"rules": {
+			// global
+			"linebreak-style":              "off",
+			"no-tabs":											"off",
+			"arrow-parens":                 ["error", "as-needed"],
+			"camelcase":                    ["error", {"allow": ["^UNSAFE_"], "properties": "never", "ignoreDestructuring": true, "ignoreImports": true }],
+			"indent":                       ["warn", 4],
+			"key-spacing":                  ["error", {"align": "value"}],
+			"max-len":                      ["error", 200],
+			"no-console":                   ["warn", {"allow": ["warn", "error"]}],
+			"no-multi-spaces":              ["error", { "exceptions": { "VariableDeclarator": true, "ImportDeclaration": true, "Property": true }}],
+			"no-restricted-globals":        "off",
+			"no-underscore-dangle":         "off",
+			"object-curly-newline":         "off",
+			"object-curly-spacing":         "off",
+			"operator-linebreak":           "off",
+			"prefer-destructuring":         ["warn", { "array": false, "object": true }, { "enforceForRenamedProperties": false }],
+			"prefer-promise-reject-errors": "off",
+
+			// import
+			"import/named":          "off",
+			"import/no-cycle":       "off",
+			"import/no-self-import": "off",
+
+			// react
+			"react/button-has-type":                "off",
+			"react/default-props-match-prop-types": "off",
+			"react/destructuring-assignment":       "off",
+			"react/jsx-indent":                     ["warn", 4],
+			"react/jsx-indent-props":               ["warn", 4],
+			"react/jsx-one-expression-per-line":    "off",
+			"react/jsx-props-no-spreading":         "off",
+			"react/no-array-index-key":             "off",
+			"react/no-danger":                      "off",
+			"react/require-default-props":          "off",
+
+			// jsx-a11y
+			"jsx-a11y/label-has-associated-control": "off",
+			"jsx-a11y/no-autofocus":                 "off"
+	}
+}

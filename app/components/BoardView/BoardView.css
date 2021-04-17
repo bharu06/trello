@@ -1,0 +1,14 @@
+#boardDiv {
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#boardname {
+    width: 500px;
+    align-content: center;
+    text-align: center;
+    margin-left: 20%;
+}
