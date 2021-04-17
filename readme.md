@@ -1,9 +1,16 @@
-# react-redux-starter-kit
+# Trello App
 A starter kit with react 16, redux, jest and webpack 4.
 
 [![Build Status](https://travis-ci.org/trembacz/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/trembacz/react-redux-starter-kit)
-[![Dependencies](https://david-dm.org/trembacz/react-redux-starter-kit/status.svg)](https://david-dm.org/trembacz/react-redux-starter-kit?view=list) 
+[![Dependencies](https://david-dm.org/trembacz/react-redux-starter-kit/status.svg)](https://david-dm.org/trembacz/react-redux-starter-kit?view=list)
 [![devDependencies](https://david-dm.org/trembacz/react-redux-starter-kit/dev-status.svg)](https://david-dm.org/trembacz/react-redux-starter-kit?type=dev&view=list)
+
+## Demo
+
+![Alt text](images/image1.png "Image 1")
+![Alt text](images/image2.png "Image 2")
+
+Youtube Link : https://youtu.be/iZFmgzgxMgc
 
 
 ## Contains:
@@ -21,8 +28,7 @@ A starter kit with react 16, redux, jest and webpack 4.
 **1. Clone the repository to your local machine by running:**
 
 ```bash
-git clone git@github.com:trembacz/react-redux-starter-kit.git
-cd react-redux-starter-kit
+git clone git@github.com:bharu06/trello.git
 ```
 
 **2. Install all dependencies:**
