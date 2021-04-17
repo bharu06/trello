@@ -7,10 +7,15 @@ A starter kit with react 16, redux, jest and webpack 4.
 
 ## Demo
 
+Youtube Link : https://youtu.be/iZFmgzgxMgc
+
+(Open in a new tab)
+
+
+
 ![Alt text](images/image1.png "Image 1")
 ![Alt text](images/image2.png "Image 2")
 
-Youtube Link : https://youtu.be/iZFmgzgxMgc
 
 
 ## Contains:
